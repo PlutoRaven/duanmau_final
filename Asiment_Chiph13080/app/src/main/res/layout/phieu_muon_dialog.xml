@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/edIdCs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/bafont"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"
+       />
+
+    <Spinner
+
+        android:id="@+id/spIdMem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/bafont"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"/>
+
+    <Spinner
+
+        android:id="@+id/spNameB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/bafont"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnDate"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/button"
+            android:src="@drawable/date" />
+
+        <EditText
+
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="serif-monospace"
+            android:hint="Ngày"
+            android:textColor="@color/bafont"
+            android:textColorHint="@color/bafont"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+
+        android:id="@+id/etRentExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:inputType="number"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/bafont"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"
+        android:hint="Tiền Thuê:" />
+
+    <CheckBox
+
+        android:id="@+id/chkReturned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/bafont"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"
+        android:text="Returned?" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSaveCs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textStyle="bold"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/bufont"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"
+            android:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/btnCancelCs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="@color/bufont"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:backgroundTint="@color/button" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

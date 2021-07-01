@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frament.ChangePassFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/framnetpasscu"
+        android:layout_marginTop="80dp"
+        android:hint="Mật khẩu cũ"/>
+    <EditText
+
+        android:inputType="textPassword"
+        android:layout_marginTop="120dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/framnetpassmoi"
+        android:hint="Mật khẩu mới"/>
+    <EditText
+
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/framnetpassnhaplaimoi"
+        android:hint="Nhập lại mật khẩu mới"
+        android:layout_marginTop="160dp"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:id="@+id/btnluu"
+            android:layout_marginLeft="40dp"
+            android:backgroundTint="#4E4242"/>
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:id="@+id/btnhuy"
+            android:layout_marginLeft="120dp"
+            android:backgroundTint="#4E4242"/>
+    </LinearLayout>
+
+</FrameLayout>

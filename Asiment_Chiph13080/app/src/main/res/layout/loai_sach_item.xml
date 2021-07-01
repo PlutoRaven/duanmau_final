@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.6"
+                android:fontFamily="serif-monospace"
+                android:padding="8dp"
+                android:text="Tob Id: "
+                android:textColor="@color/bafont"
+                android:textColorHint="@color/bafont"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIdTob"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:hint="Tob Id"
+                android:padding="8dp"
+                android:textColor="@color/bafont"
+                android:textColorHint="@color/bafont"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.6"
+                android:fontFamily="serif-monospace"
+                android:padding="8dp"
+                android:text="Tob Name"
+                android:textColor="@color/bafont"
+                android:textColorHint="@color/bafont"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNameTob"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:padding="8dp"
+                android:text="Tob Name"
+                android:textColor="@color/bafont"
+                android:textColorHint="@color/bafont"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:padding="8dp"
+                android:text="Tob NCC"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/bafont"
+                android:textSize="20sp"
+                android:textColorHint="@color/bafont"
+                android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tvNcc"
+            android:layout_gravity="center_vertical"
+            android:text="Tob NCC"
+            android:padding="8dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_margin="8dp"
+        android:id="@+id/imgDeleteLS"
+        android:src="@drawable/ic_baseline_cancel_"/>
+            </LinearLayout>
+        </LinearLayout>
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edIdTob"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/bafont"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edNameTob"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:backgroundTint="@color/background"
+            android:textColorHint="@color/bafont"
+            android:hint="Type of book:"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/edNcc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/background"
+            android:fontFamily="serif-monospace"
+            android:hint="Nha cung cap:"
+            android:textColor="@color/bafont"
+            android:textColorHint="@color/bafont"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveTob"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:text="Save"
+            android:textColor="@color/bufont"
+            android:textSize="20sp"
+            android:backgroundTint="@color/button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/btnCacelTob"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bufont"
+            android:textSize="20sp"
+            android:backgroundTint="@color/button"/>
+
+
+    </LinearLayout>
+</LinearLayout>

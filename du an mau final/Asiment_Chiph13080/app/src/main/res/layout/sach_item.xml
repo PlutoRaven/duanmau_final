@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal">
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/qlsach_masach"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Mã Sách"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Mã Loại:"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:id="@+id/qlsach_maloai"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Mã Loại"/>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.2"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Tên Sách :"
+                        />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:id="@+id/qlsach_tensach"
+                android:text="tên sách"/>
+                </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Tiền Thuê:"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:id="@+id/qlsach_tienthue"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Tiền Thuê"/>
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgDeleteS"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/ic_close"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_PhieuMuon"
+            android:icon="@drawable/ic_action_quanlyphieumuon"
+            android:title="Call Slip Management"/>
+        <item
+            android:id="@+id/nav_LoaiSach"
+            android:icon="@drawable/ic_action_quanlyloaisach"
+            android:title="Type Of Book Management"/>
+        <item
+            android:id="@+id/nav_Sach"
+            android:icon="@drawable/ic_action_quanlysach"
+            android:title="Book Management"/>
+        <item
+            android:id="@+id/nav_ThanhVien"
+            android:icon="@drawable/ic_action_quanlythanhvien"
+            android:title="Member Management"/>
+        <item android:title="Revenue">
+            <menu>
+                <item android:id="@+id/sub_top"
+                    android:title="Top 10 rented Book"
+                    android:icon="@drawable/ic_action_top10"/>
+                <item android:id="@+id/sub_doanhthu"
+                    android:title="Revenue"
+                    android:icon="@drawable/ic_action_doanhthu"/>
+            </menu>
+        </item>
+        <item android:title="User">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_action_themnguoidung"
+                    android:id="@+id/sub_addUser"
+                    android:visible="false"
+                    android:title="Add User"
+                    />
+                <item android:id="@+id/sub_Pass"
+                    android:title="Change Password"
+                    android:icon="@drawable/ic_action_doimatkhau"/>
+                <item android:id="@+id/sub_logout"
+                    android:title="Log Out"
+                    android:icon="@drawable/ic_action_dangxuat"/>
+
+            </menu>
+
+        </item>
+    </group>
+</menu>

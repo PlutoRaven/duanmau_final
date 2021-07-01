@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/edIdB"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/bafont"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"/>
+
+    <Spinner
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spTypeTob"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/bafont"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNameB"
+        android:hint="Book name:"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/bafont"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"/>
+    <EditText
+
+        android:hint="Rental price:"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRentPrice"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/bafont"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"/>
+
+    <EditText
+
+        android:hint="Discount:"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDiscountB"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/bafont"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"/>
+
+    <EditText
+
+        android:id="@+id/etTacGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif-monospace"
+        android:hint="TacGia:"
+        android:textColor="@color/bafont"
+        android:textColorHint="@color/bafont"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        >
+        <Button
+            android:id="@+id/btnSaveB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bufont"
+            android:textSize="20sp"
+            android:backgroundTint="@color/button" />
+
+        android:backgroundTint="#4E4242"/>
+
+        <Button
+            android:id="@+id/btnCancelB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:fontFamily="serif-monospace"
+            android:text="Cancel"
+            android:textColor="@color/bufont"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

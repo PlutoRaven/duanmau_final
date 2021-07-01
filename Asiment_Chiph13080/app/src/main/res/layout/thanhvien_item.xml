@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="10">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvIdM"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"
+            android:text="Member Id:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvNameM"
+            android:text="Name:"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvBirthM"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"
+            android:text="Year of Birth:"/>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgDeleteM"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_baseline_cancel_"
+        android:layout_marginRight="40dp"/>
+
+</LinearLayout>

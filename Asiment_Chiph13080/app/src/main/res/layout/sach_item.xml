@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="horizontal">
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tvIdB"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/bafont"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:textColorHint="@color/bafont"
+                android:textStyle="bold"
+                android:text="Book Id"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="@color/bafont"
+                    android:textSize="20sp"
+                    android:padding="8dp"
+                    android:textColorHint="@color/bafont"
+                    android:textStyle="bold"
+                    android:text="Tob ID"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:id="@+id/tvIdTob"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/bafont"
+                android:textSize="20sp"
+                android:textColorHint="@color/bafont"
+                android:textStyle="bold"
+                android:text="Tob Id"/>
+            </LinearLayout>
+
+        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:fontFamily="serif-monospace"
+                        android:textColor="@color/bafont"
+                        android:textSize="20sp"
+                        android:padding="8dp"
+                        android:textColorHint="@color/bafont"
+                        android:textStyle="bold"
+                        android:text="Book name: "
+                        />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/bafont"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:textColorHint="@color/bafont"
+                android:textStyle="bold"
+                android:id="@+id/tvNameB"
+                android:text="Book name"/>
+                </LinearLayout>
+
+        <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:fontFamily="serif-monospace"
+                            android:textColor="@color/bafont"
+                            android:textSize="20sp"
+                            android:padding="8dp"
+                            android:textColorHint="@color/bafont"
+                            android:textStyle="bold"
+                            android:text="Rental price: "/>
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:fontFamily="serif-monospace"
+                            android:textColor="@color/bafont"
+                            android:textSize="20sp"
+                            android:layout_gravity="center_vertical"
+                            android:textColorHint="@color/bafont"
+                            android:textStyle="bold"
+                            android:id="@+id/tvRentPrice"
+                            android:text="Rental price"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:fontFamily="serif-monospace"
+                android:padding="8dp"
+                android:text="Discount: "
+                android:textColor="@color/bafont"
+                android:textColorHint="@color/bafont"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/tvDiscountB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.7"
+                android:fontFamily="serif-monospace"
+                android:padding="8dp"
+                android:text="Discount"
+                android:textColor="@color/bafont"
+                android:textColorHint="@color/bafont"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/bafont"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:textColorHint="@color/bafont"
+                android:textStyle="bold"
+                android:text="Tac Gia: "/>
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/bafont"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:textColorHint="@color/bafont"
+                android:textStyle="bold"
+                android:id="@+id/tvTacGia"
+                android:text="Tac Gia"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgDeleteS"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_baseline_cancel_"
+        android:layout_marginRight="40dp"/>
+
+</LinearLayout>

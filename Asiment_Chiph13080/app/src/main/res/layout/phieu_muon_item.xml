@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Mã Phiếu"
+                android:layout_weight="0.5"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/bafont"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:textColorHint="@color/bafont"
+                android:textStyle="bold" />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Mã Phiếu Mượn"
+            android:id="@+id/tvMaPM"
+            android:layout_weight="0.8"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tên TV:"
+                android:layout_weight="0.5"
+                android:padding="8dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/bafont"
+                android:textSize="20sp"
+                android:textColorHint="@color/bafont"
+                android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:text="Tên Thành Viên"
+            android:id="@+id/tvTenTV1"
+            android:padding="8dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tên Sách:"
+            android:layout_weight="0.5"
+            android:padding="8dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tên Sách"
+            android:id="@+id/tvTenSach"
+            android:layout_weight="0.7"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Trả Sách"
+            android:id="@+id/tvTraSach"
+            android:layout_weight="0.7"
+            android:padding="8dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:padding="8dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/bafont"
+        android:textSize="20sp"
+        android:textColorHint="@color/bafont"
+        android:textStyle="bold"
+        android:text="Tiền Thuê:"/>
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tiền Thuê"
+            android:id="@+id/tvTienThue"
+            android:layout_weight="0.7"
+            android:padding="8dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+    >
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:padding="8dp"
+    android:fontFamily="serif-monospace"
+    android:textColor="@color/bafont"
+    android:textSize="20sp"
+    android:textColorHint="@color/bafont"
+    android:textStyle="bold"
+    android:text="Ngày thuê:"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày"
+            android:id="@+id/tvNgayPM"
+            android:layout_weight="0.7"
+            android:padding="8dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/bafont"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:textColorHint="@color/bafont"
+            android:textStyle="bold"
+            />
+</LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+
+        <ImageView
+
+            android:id="@+id/imgDeletePM"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_baseline_cancel_" />
+
+    </LinearLayout>
+    </LinearLayout>
